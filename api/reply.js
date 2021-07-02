@@ -1,6 +1,7 @@
 module.exports = (req, res) => {
+  console.log('body', req.body);
     res.json({
-      body: req.body ? JSON.parse(req.body) : undefined,
+      body: req.body,
       query: req.query,
       cookies: req.cookies,
     })
