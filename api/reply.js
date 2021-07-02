@@ -5,7 +5,9 @@ module.exports = (req, res) => {
     composeExtension: {
       type: "result",
       attachmentLayout: "list",
-      attachments: [CardFactory.heroCard('name', 'description')],
+      attachments: [CardFactory.heroCard('', undefined, undefined, {
+        text: '<blockquote>text message</blockquote>'
+      })],
     },
   }
   console.log('body', req.body);
