@@ -1,0 +1,13 @@
+{
+  "name": "teams-reply-extension",
+  "version": "1.0.0",
+  "description": "Reply Teams message extension",
+  "author": {
+    "name": "Valery Kobzar",
+    "email": "kobzarvs@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "~4.7.0"
+  }
+}
