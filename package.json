@@ -1,5 +1,5 @@
 {
-  "name": "teams-reply-extension",
+  "name": "teams-reply-service",
   "version": "1.0.0",
   "description": "Reply Teams message extension",
   "author": {
