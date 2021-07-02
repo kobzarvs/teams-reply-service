@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "botbuilder": "~4.7.0"
+    "botbuilder": "^4.13.6",
+    "node-fetch": "^2.6.1"
   }
 }
