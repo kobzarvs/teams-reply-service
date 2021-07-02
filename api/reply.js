@@ -1,12 +1,11 @@
-const { TeamsActivityHandler, CardFactory } = require("botbuilder");
-
-
 module.exports = (req, res) => {
+  const {CardFactory} = require("botbuilder");
+
   const response = {
     composeExtension: {
       type: "result",
       attachmentLayout: "list",
-      attachments: [CardFactory.heroCard(obj.name, obj.description)],
+      attachments: [CardFactory.heroCard('name', 'description')],
     },
   }
   console.log('body', req.body);
